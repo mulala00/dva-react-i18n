@@ -23,6 +23,9 @@ function Header({ location }) {
       <Menu.Item key="/404">
         <Link to="/page-you-dont-know"><Icon type="frown-circle" />404</Link>
       </Menu.Item>
+      <Menu.Item key="/about" pull-right>
+        <Link to="/about">About</Link>
+      </Menu.Item>
     </Menu>
   );
 }
